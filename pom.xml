@@ -15,14 +15,14 @@
   <!--
   Add in the below snippet and comment out the profile declaration to make
   the detection of the dependency version succeed.
+  -->
   
   <modules>
     <module>bom</module>
     <module>consumer</module>
   </modules>
-  -->
   
-  <profiles>
+  <!-- <profiles>
     <profile>
       <id>distro</id>
       <activation>
@@ -33,5 +33,5 @@
         <module>consumer</module>
       </modules>
     </profile>
-  </profiles>
+  </profiles> -->
 </project>
